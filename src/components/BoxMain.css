@@ -1,0 +1,49 @@
+.box-main{
+  display: flex;
+  align-items: center;
+ flex-direction: column;
+  justify-content: center;
+  border: 2px dashed #fff;
+  height: 70vh;
+  width: 70vw;
+  color: #fff;
+  margin: 5% auto;
+  border-radius: 15px;
+
+}
+.Return-Button{
+  margin: 15px 5%;
+  padding: 35px;
+  width: 90%;
+  align-items: center;
+  cursor: pointer;
+  border: 2px dashed #fff;
+  background-color: transparent;
+  border-radius: 10px;
+  color: #fff;
+}
+
+
+.Return-Button:hover{
+opacity: 50%;
+}
+
+
+.box-main p{
+margin-top: -10px;
+  }
+.box-main span:hover{
+opacity: 50%;
+font-weight: bolder;
+cursor: pointer;
+}
+
+.popup {
+  position: absolute;
+  display: flex;
+  margin: 5% auto;
+  height: 72vh;
+  width: 72vw;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  z-index: 9999;
+}

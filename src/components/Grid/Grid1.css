@@ -1,0 +1,9 @@
+.Itemsgrid{
+  resize: both  !important;
+  border: 2px dashed white;
+  overflow: auto; 
+}
+.boxx{
+  width: 98%;
+  margin:4% auto;
+}
